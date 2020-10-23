@@ -1,0 +1,247 @@
+/* My standard styling  */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* Styling the Header  */
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(117, 160, 54);
+}
+
+.inner_header {
+    width: 750px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.name_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.name_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200px;
+}
+
+.name_container h1 span {
+    font-weight: 800;
+}
+
+
+/* Styling my navibar */
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+
+/* Standard main structure of all my pages  */
+
+.main {
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: calc(100vh - 80px - 80px);
+    font-family: 'Montserrat';
+    background-color: white;
+}
+
+
+/* Styling my header  */
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(117, 160, 54);
+}
+
+.inner_footer {
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.inner_footer h2 {
+    color: white;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 200;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.inner_footer h4 {
+    color: white;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 200;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+
+/* Styling and moving my array around  */
+
+#array_table {
+    border: 1px solid rgb(117, 160, 54);
+    font-family: 'Montserrat';
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgb(117, 160, 54);
+    position: relative;
+    margin-left: 400px;
+}
+
+#array_table td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#array_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#array_table tr:hover {
+    background-color: #ddd;
+}
+
+#array_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(117, 160, 54);
+    color: white;
+}
+
+
+/* Styling and moving some text around  */
+
+.midText {
+    color: rgb(117, 160, 54);
+    position: relative;
+    text-align: center;
+    top: 180px;
+}
+
+.midText h1 {
+    font-weight: 200px;
+    font-size: 50px;
+}
+
+
+/* my background image from php project  */
+
+.projectImage {
+    background-image: url("../Images/phpproject.jpg");
+    height: 560px;
+    position: relative;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+}
+
+
+/* Styling and moving my form */
+
+.formBox {
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    top: 140px;
+    margin-left: 400px;
+}
+
+.formBox input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgb(117, 160, 54);
+}
+
+
+/* My output text from php forms  */
+
+.main p {
+    position: relative;
+    text-align: center;
+    top: 180px;
+    font-weight: 150px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    box-shadow: 0 0 15px 4px rgb(117, 160, 54);
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+}
+
+
+/* Styling and moving the the "Choose agai botton"  */
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: fixed;
+    top: 355px;
+    right: 590px;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+.button:active {
+    background-color: rgb(117, 160, 54);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: #333;
+}
